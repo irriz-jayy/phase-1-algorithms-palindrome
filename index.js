@@ -1,5 +1,5 @@
 const word = ["racecar", "abba", "a", "ab", "robot"];
-
+//Function created
 function isPalindrome(word) {
   var len = word.length;
   for (var i = 0; i < len; i++) {
@@ -20,7 +20,7 @@ function isPalindrome(word) {
   if not retuurns false
 
 
-/*
+/* Explanation
   The function checks the index of the word. Then takes the lenght of the word subtracts by obe and takes the index and subtracts it. If the letter that is there in the cuurent new index is strictly similar to the expected it passes true. If it isnt it passes false.
 */
 
