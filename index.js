@@ -24,9 +24,7 @@ function isPalindrome(word) {
   The function checks the index of the word. Then takes the lenght of the word subtracts by obe and takes the index and subtracts it. If the letter that is there in the cuurent new index is strictly similar to the expected it passes true. If it isnt it passes false.
 */
 
-// You can run `node index.js` to view these console logs
 if (require.main === module) {
-  // add your own custom tests in here
   console.log("Expecting: true");
   console.log("=>", isPalindrome("racecar"));
 
